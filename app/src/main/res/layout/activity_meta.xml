@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="32dp">
+
+<TextView
+    android:id="@+id/txtTituloMeta"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Definir Meta Diária"
+    android:textColor="#FFFFFF"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<TextView
+    android:id="@+id/txtLabelMeta"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Quantos passos você deseja dar hoje?"
+    android:textColor="#AAAAAA"
+    android:layout_marginTop="32dp"
+    app:layout_constraintTop_toBottomOf="@id/txtTituloMeta"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<EditText
+    android:id="@+id/edtNovaMeta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:textColor="#FFFFFF"
+    android:textSize="32sp"
+    android:textAlignment="center"
+    android:backgroundTint="#00C853"
+    android:layout_marginTop="16dp"
+    app:layout_constraintTop_toBottomOf="@id/txtLabelMeta" />
+
+<Button
+    android:id="@+id/btnSalvarMeta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Salvar Meta"
+    android:backgroundTint="#00C853"
+    android:layout_marginTop="32dp"
+    app:layout_constraintTop_toBottomOf="@id/edtNovaMeta" />
+
+<Button
+    android:id="@+id/btnVoltarMeta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Cancelar"
+    android:backgroundTint="#333333"
+    android:layout_marginTop="32dp"
+    app:layout_constraintTop_toBottomOf="@id/btnSalvarMeta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
