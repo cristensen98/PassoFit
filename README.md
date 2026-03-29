@@ -1,4 +1,5 @@
-PassoFit 👟
+PassoFit
+
 PassoFit é um aplicativo Android nativo desenvolvido para ajudar usuários a monitorar sua atividade física diária de forma simples, privada e totalmente offline. O foco do aplicativo é a eficiência energética e a soberania dos dados do usuário.
 
 Sobre o Projeto:
@@ -56,9 +57,4 @@ Licença:
 Este projeto foi desenvolvido para fins educacionais como parte da disciplina de Desenvolvimento para Plataformas Móveis. Sinta-se à vontade para estudar e adaptar o código.
 Desenvolvido por: 
 
-CRISTENSEN UBIRATAN MOREIRA PORPINO
-ELIAS DA COSTA SALES
-JOSE FERNANDO ABREU MARTINS FILHO
-JOAO GABRIEL SOARES MOURA
-GUILHERME MENEZES VIEIRA
-THIAGO VIDAL DE SOUSA
+CRISTENSEN UBIRATAN MOREIRA PORPINO, ELIAS DA COSTA SALES, JOSE FERNANDO ABREU MARTINS FILHO, JOAO GABRIEL SOARES MOURA, GUILHERME MENEZES VIEIRA, THIAGO VIDAL DE SOUSA
